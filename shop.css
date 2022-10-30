@@ -1,0 +1,61 @@
+.topnav {
+    background-color: #457b9d;
+    overflow: hidden;
+    text-align: center;
+    padding: 3px;
+    margin: 2px 2px;
+ 
+}
+/* Style the links inside the navigation bar*/ 
+.topnav a{
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+/* Change the color of links on hover */
+.topnav a:hover{
+    background-color: #0077b6;
+    color: rgb(0, 0, 0);
+
+}
+/* Add a color to the active/current link*/
+.topnav a.active{
+    background-color: #da4040;
+    color:white;
+}
+body{
+    color:black;
+    background-color: #457b9d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dropdown-item{
+    color: rgb(0, 0, 0);
+    background-color: #ffd4d8;
+}
+.footer{
+    background-color: #ffffff;
+    margin-top: 809px;
+
+align-items: stretch;
+}
+.btn-group:hover{
+background-color: rgb(255, 255, 255);
+color: black;
+background-origin: padding-box;
+
+}
+.btn-group{
+    color: black;
+    align-items: stretch;
+    margin-right:  500px;
+}
+.topnav{
+    animation: alternate-reverse;
+    align-items: center;
+    
+}
